@@ -40,6 +40,7 @@ module.exports = {
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   transformIgnorePatterns: ["/node_modules/"],
+  roots: ["./tests/unit"],
 
   // This adds typeahead to pattern search in watch mode
   watchPlugins: [
