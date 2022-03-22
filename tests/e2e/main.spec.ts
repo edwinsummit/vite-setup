@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe("Main", () => {
   it("should display header text", () => {
     cy.visit("/");
